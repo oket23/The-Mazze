@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Hero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\TextString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Hero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\TextString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resours\Map\Map.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resours\Logo\Logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resours\Texture\Hero\hero_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resours\Texture\Enemy\enemy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resours\Texture\Cursor\cursor16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resours\Texture\Cursor\cursor32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resours\Texture\Logo\Logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resours\Texture\Map\Map.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resours\Texture\MenuItem\123.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resours\Texture\MenuItem\quit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resours\Texture\MenuItem\start.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resours\Texture\MenuItem\volume1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resours\Texture\MenuItem\volume2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resours\Texture\Font\font.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resours\Texture\Music\main1.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resours\Texture\Music\main2.mp3" />
+    <Media Include="Resours\Texture\Music\tableCollect.mp3" />
+    <Media Include="Resours\Texture\Music\walk1.mp3" />
+  </ItemGroup>
+</Project>
